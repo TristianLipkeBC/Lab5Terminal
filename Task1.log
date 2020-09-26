@@ -1,0 +1,1386 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2020.09.25 21:51:05 =~=~=~=~=~=~=~=~=~=~=~=
+login as: tlipke
+Pre-authentication banner message from server:
+| Access to Brooklyn College computers is restricted to authorized users
+|         and approved educational and research purposes, only.
+End of banner message from server
+tlipke@146.245.252.28's password: 
+Last login: Fri Sep 25 21:12:51 2020 from ool-4575541d.dyn.optonline.net
+
+]0;tlipke@sol28:~[?1034h[tlipke@sol28 ~]$ ls
+BlogLab.html  [0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mfontconfig[0m        HelloWorld.java  log    [01;34mMyCalendars[0m       [01;34mnewpublic_html[0m  [01;34mPublic[0m       [01;34mTemplates[0m
+[01;34mcisc3115[0m      [01;34mdoc[0m      [01;34mDownloads[0m  HelloWorld.class  LinkedList.java  [01;34mMusic[0m  [01;34mNetBeansProjects[0m  [01;34mPictures[0m        [01;34mpublic_html[0m  [01;34mVideos[0m
+]0;tlipke@sol28:~[tlipke@sol28 ~]$ login as: tlipke
+Pre-authentication banner message from server:
+| Access to Brooklyn College computers is restricted to authorized users
+|         and approved educational and research purposes, only.
+End of banner message from server
+tlipke@146.245.252.28's password: 
+Last login: Fri Sep 25 21:51:30 2020 from ool-4575541d.dyn.optonline.net
+
+]0;tlipke@sol28:~[?1034h[tlipke@sol28 ~]$ 
+[K[tlipke@sol28 ~]$ nano[[[[[Kls
+BlogLab.html  [0m[01;34mDocuments[0m         HelloWorld.java  [01;34mMyCalendars[0m       [01;34mPublic[0m
+[01;34mcisc3115[0m      [01;34mDownloads[0m         LinkedList.java  [01;34mNetBeansProjects[0m  [01;34mpublic_html[0m
+[01;34mDesktop[0m       [01;34mfontconfig[0m        log              [01;34mnewpublic_html[0m    [01;34mTemplates[0m
+[01;34mdoc[0m           HelloWorld.class  [01;34mMusic[0m            [01;34mPictures[0m          [01;34mVideos[0m
+]0;tlipke@sol28:~[tlipke@sol28 ~]$ nano myscript.sh
+[?1049h[1;43r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1              File: myscript.sh                                   [41;36H[ New File ]
+[42d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos
+[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell
+[3d[1;73H(B[0;7mModified
+[3d(B[m#! /bin/bash
+[4d[5d#testing t
+[41d[K[5;11Hesting please	o[Z [Zwork
+[6d[7dw
+[Kecho this
+	"This is a	test
+[8d[7;21H!"
+[41d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                      [42;1H Y(B[m Yes[K
+[43d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[41;62H
+(B[0;7mFile Name to Write: myscript.sh                             
+[42d^G(B[m Get Help[42;21H(B[0;7mM-D(B[m DOS Format	(B[0;7mM-A(B[m Append[42;61H(B[0;7mM-B(B[m Backup File
+[43d(B[0;7m^C(B[m Cancel	    (B[0;7mM-M(B[m Mac Format	(B[0;7mM-P(B[m Prepend[41;32H
+[42d[39;49m(B[m[J[1;73H(B[0;7m        [41;32H(B[m[1K	(B[0;7m[ Wrote 6 lines ](B[m[K[43;82H[43;1H[?1049l
+[?1l>]0;tlipke@sol28:~[tlipke@sol28 ~]$ chmod +x myscript.sh
+]0;tlipke@sol28:~[tlipke@sol28 ~]$ ./myscript.sh
+This is a test!
+]0;tlipke@sol28:~[tlipke@sol28 ~]$ [Kecho $PATH
+/usr/lib64/qt-3.3/bin:/usr/lib64/mpich-3.2/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/users1/st/tlipke/bin
+]0;tlipke@sol28:~[tlipke@sol28 ~]$ /usr/lib64/qt-3.3/bin:/usr/lib64/mpich-3.2/bin:/usr/local/bin:/u 
+sr/bin:/usr/local/sbin:/usr/sbin:/users1/st/tlipke/bin
+-bash: /usr/lib64/qt-3.3/bin:/usr/lib64/mpich-3.2/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/users1/st/tlipke/bin: No such file or directory
+]0;tlipke@sol28:~[tlipke@sol28 ~]$ ^C
+]0;tlipke@sol28:~[tlipke@sol28 ~]$ login as: tlipke
+Pre-authentication banner message from server:
+| Access to Brooklyn College computers is restricted to authorized users
+|         and approved educational and research purposes, only.
+End of banner message from server
+tlipke@146.245.252.28's password: 
+Last login: Fri Sep 25 22:12:31 2020 from ool-4575541d.dyn.optonline.net
+
+]0;tlipke@sol28:~[?1034h[tlipke@sol28 ~]$ 
+[K[tlipke@sol28 ~]$ git clone 
+You must specify a repository to clone.
+
+usage: git clone [options] [--] <repo> [<dir>]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --progress            force progress reporting
+    -n, --no-checkout     don't create a checkout
+    --bare                create a bare repository
+    --mirror              create a mirror repository (implies bare)
+    -l, --local           to clone from a local repository
+    --no-hardlinks        don't use local hardlinks, always copy
+    -s, --shared          setup as shared repository
+    --recursive           initialize submodules in the clone
+    --recurse-submodules  initialize submodules in the clone
+    --template <template-directory>
+                          directory from which templates will be used
+    --reference <repo>    reference repository
+    -o, --origin <name>   use <name> instead of 'origin' to track upstream
+    -b, --branch <branch>
+                          checkout <branch> instead of the remote's HEAD
+    -u, --upload-pack <path>
+                          path to git-upload-pack on the remote
+    --depth <depth>       create a shallow clone of that depth
+    --single-branch       clone only one branch, HEAD or --branch
+    --separate-git-dir <gitdir>
+                          separate git dir from working tree
+    -c, --config <key=value>
+                          set config inside the new repository
+
+]0;tlipke@sol28:~[tlipke@sol28 ~]$ git cone[[[[Klone 
+You must specify a repository to clone.
+
+usage: git clone [options] [--] <repo> [<dir>]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --progress            force progress reporting
+    -n, --no-checkout     don't create a checkout
+    --bare                create a bare repository
+    --mirror              create a mirror repository (implies bare)
+    -l, --local           to clone from a local repository
+    --no-hardlinks        don't use local hardlinks, always copy
+    -s, --shared          setup as shared repository
+    --recursive           initialize submodules in the clone
+    --recurse-submodules  initialize submodules in the clone
+    --template <template-directory>
+                          directory from which templates will be used
+    --reference <repo>    reference repository
+    -o, --origin <name>   use <name> instead of 'origin' to track upstream
+    -b, --branch <branch>
+                          checkout <branch> instead of the remote's HEAD
+    -u, --upload-pack <path>
+                          path to git-upload-pack on the remote
+    --depth <depth>       create a shallow clone of that depth
+    --single-branch       clone only one branch, HEAD or --branch
+    --separate-git-dir <gitdir>
+                          separate git dir from working tree
+    -c, --config <key=value>
+                          set config inside the new repository
+
+]0;tlipke@sol28:~[tlipke@sol28 ~]$ g[[Kpwd
+/users1/st/tlipke
+]0;tlipke@sol28:~[tlipke@sol28 ~]$ ls
+BlogLab.html  [0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mfontconfig[0m        HelloWorld.java  log    [01;34mMyCalendars[0m  [01;34mNetBeansProjects[0m  [01;34mPictures[0m  [01;34mpublic_html[0m  [01;34mVideos[0m
+[01;34mcisc3115[0m      [01;34mdoc[0m      [01;34mDownloads[0m  HelloWorld.class  LinkedList.java  [01;34mMusic[0m  [01;32mmyscript.sh[0m  [01;34mnewpublic_html[0m    [01;34mPublic[0m    [01;34mTemplates[0m
+]0;tlipke@sol28:~[tlipke@sol28 ~]$ git c[Klone https://github.com/TristianLipkeBC/Lab5Terminal.git
+Cloning into 'Lab5Terminal'...
+remote: Enumerating objects: 3, done.[K
+remote: Counting objects:  33% (1/3)[K
+remote: Counting objects:  66% (2/3)[K
+remote: Counting objects: 100% (3/3)[K
+remote: Counting objects: 100% (3/3), done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  33% (1/3)   
+Unpacking objects:  66% (2/3)   
+Unpacking objects: 100% (3/3)   
+Unpacking objects: 100% (3/3), done.
+]0;tlipke@sol28:~[tlipke@sol28 ~]$ ls
+BlogLab.html  [0m[01;34mDownloads[0m         LinkedList.java  [01;34mNetBeansProjects[0m  [01;34mTemplates[0m
+[01;34mcisc3115[0m      [01;34mfontconfig[0m        log              [01;34mnewpublic_html[0m    [01;34mVideos[0m
+[01;34mDesktop[0m       HelloWorld.class  [01;34mMusic[0m            [01;34mPictures[0m
+[01;34mdoc[0m           HelloWorld.java   [01;34mMyCalendars[0m      [01;34mPublic[0m
+[01;34mDocuments[0m     [01;34mLab5Terminal[0m      [01;32mmyscript.sh[0m      [01;34mpublic_html[0m
+]0;tlipke@sol28:~[tlipke@sol28 ~]$ cd Lab5Terminal
+]0;tlipke@sol28:~/Lab5Terminal[tlipke@sol28 Lab5Terminal]$ ls
+README.md
+]0;tlipke@sol28:~/Lab5Terminal[tlipke@sol28 Lab5Terminal]$ curk[[Kl -O https://raw.githubusercontent.com/myarmolin 
+sky/CISC-3140/master/Pokemon.csv
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0
+100 44827  100 44827    0     0   7709      0  0:00:05  0:00:05 --:--:-- 10422
+]0;tlipke@sol28:~/Lab5Terminal[tlipke@sol28 Lab5Terminal]$ ls
+Pokemon.csv  README.md
+]0;tlipke@sol28:~/Lab5Terminal[tlipke@sol28 Lab5Terminal]$ ns[[Kano Pokemon.csv
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1             File: Pokemon.csv                                  [3;1H(B[m#,Name,Type 1,Type 2,Total,HP,Attack,Defense,Sp. Atk,Sp. Def,Speed,Generation,L$[4;1H1,Bulbasaur,Grass,Poison,318,45,49,49,65,65,45,1,FALSE
+[5d2,Ivysaur,Grass,Poison,405,60,62,63,80,80,60,1,FALSE
+[6d3,Venusaur,Grass,Poison,525,80,82,83,100,100,80,1,FALSE
+[7d3,VenusaurMega Venusaur,Grass,Poison,625,80,100,123,122,120,80,1,FALSE
+[8d4,Charmander,Fire,,309,39,52,43,60,50,65,1,FALSE
+[9d5,Charmeleon,Fire,,405,58,64,58,80,65,80,1,FALSE
+[10d6,Charizard,Fire,Flying,534,78,84,78,109,85,100,1,FALSE
+[11d6,CharizardMega Charizard X,Fire,Dragon,634,78,130,111,130,85,100,1,FALSE
+[12d6,CharizardMega Charizard Y,Fire,Flying,634,78,104,78,159,115,100,1,FALSE
+[13d7,Squirtle,Water,,314,44,48,65,50,64,43,1,FALSE
+[14d8,Wartortle,Water,,405,59,63,80,65,80,58,1,FALSE
+[15d9,Blastoise,Water,,530,79,83,100,85,105,78,1,FALSE
+[16d9,BlastoiseMega Blastoise,Water,,630,79,103,120,135,115,78,1,FALSE
+[17d10,Caterpie,Bug,,195,45,30,35,20,20,45,1,FALSE
+[18d11,Metapod,Bug,,205,50,20,55,25,25,30,1,FALSE
+[19d12,Butterfree,Bug,Flying,395,60,45,50,90,80,70,1,FALSE
+[20d13,Weedle,Bug,Poison,195,40,35,30,20,20,50,1,FALSE
+[21d14,Kakuna,Bug,Poison,205,45,25,50,25,25,35,1,FALSE[22;18H(B[0;7m[ Read 801 lines (Converted from DOS format) ]
+[23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell
+[3d[24;1H[?1049l
+[?1l>[?1049h[1;44r[?12l[?25h[39;49m(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 2.3.1             File: Pokemon.csv                                  
+[3d(B[m#,Name,Type 1,Type 2,Total,HP,Attack,Defense,Sp. Atk,Sp. Def,Speed,Generation,L$
+[4d1,Bulbasaur,Grass,Poison,318,45,49,49,65,65,45,1,FALSE
+[5d2,Ivysaur,Grass,Poison,405,60,62,63,80,80,60,1,FALSE
+[6d3,Venusaur,Grass,Poison,525,80,82,83,100,100,80,1,FALSE
+[7d3,VenusaurMega Venusaur,Grass,Poison,625,80,100,123,122,120,80,1,FALSE
+[8d4,Charmander,Fire,,309,39,52,43,60,50,65,1,FALSE
+[9d5,Charmeleon,Fire,,405,58,64,58,80,65,80,1,FALSE
+[10d6,Charizard,Fire,Flying,534,78,84,78,109,85,100,1,FALSE
+[11d6,CharizardMega Charizard X,Fire,Dragon,634,78,130,111,130,85,100,1,FALSE
+[12d6,CharizardMega Charizard Y,Fire,Flying,634,78,104,78,159,115,100,1,FALSE
+[13d7,Squirtle,Water,,314,44,48,65,50,64,43,1,FALSE
+[14d8,Wartortle,Water,,405,59,63,80,65,80,58,1,FALSE
+[15d9,Blastoise,Water,,530,79,83,100,85,105,78,1,FALSE
+[16d9,BlastoiseMega Blastoise,Water,,630,79,103,120,135,115,78,1,FALSE
+[17d10,Caterpie,Bug,,195,45,30,35,20,20,45,1,FALSE
+[18d11,Metapod,Bug,,205,50,20,55,25,25,30,1,FALSE
+[19d12,Butterfree,Bug,Flying,395,60,45,50,90,80,70,1,FALSE
+[20d13,Weedle,Bug,Poison,195,40,35,30,20,20,50,1,FALSE
+[21d14,Kakuna,Bug,Poison,205,45,25,50,25,25,35,1,FALSE[22;18H(B[0;7m[ Read 801 lines (Converted from DOS format) ]
+[23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell
+[3d[?1h=[?1h=[?1h=[H[2J(B[0;7m  GNU nano 2.3.1             File: Pokemon.csv                                  
+[3d(B[m#,Name,Type 1,Type 2,Total,HP,Attack,Defense,Sp. Atk,Sp. Def,Speed,Generation,L$
+[4d1,Bulbasaur,Grass,Poison,318,45,49,49,65,65,45,1,FALSE
+[5d2,Ivysaur,Grass,Poison,405,60,62,63,80,80,60,1,FALSE
+[6d3,Venusaur,Grass,Poison,525,80,82,83,100,100,80,1,FALSE
+[7d3,VenusaurMega Venusaur,Grass,Poison,625,80,100,123,122,120,80,1,FALSE
+[8d4,Charmander,Fire,,309,39,52,43,60,50,65,1,FALSE
+[9d5,Charmeleon,Fire,,405,58,64,58,80,65,80,1,FALSE
+[10d6,Charizard,Fire,Flying,534,78,84,78,109,85,100,1,FALSE
+[11d6,CharizardMega Charizard X,Fire,Dragon,634,78,130,111,130,85,100,1,FALSE
+[12d6,CharizardMega Charizard Y,Fire,Flying,634,78,104,78,159,115,100,1,FALSE
+[13d7,Squirtle,Water,,314,44,48,65,50,64,43,1,FALSE
+[14d8,Wartortle,Water,,405,59,63,80,65,80,58,1,FALSE
+[15d9,Blastoise,Water,,530,79,83,100,85,105,78,1,FALSE
+[16d9,BlastoiseMega Blastoise,Water,,630,79,103,120,135,115,78,1,FALSE
+[17d10,Caterpie,Bug,,195,45,30,35,20,20,45,1,FALSE
+[18d11,Metapod,Bug,,205,50,20,55,25,25,30,1,FALSE
+[19d12,Butterfree,Bug,Flying,395,60,45,50,90,80,70,1,FALSE
+[20d13,Weedle,Bug,Poison,195,40,35,30,20,20,50,1,FALSE
+[21d14,Kakuna,Bug,Poison,205,45,25,50,25,25,35,1,FALSE[22;18H(B[0;7m[ Read 801 lines (Converted from DOS format) ]
+[23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell
+[43d[1;30H(B[0;7m                 [1;60HFile: Pokemon.csv                                                                                            [3;80H(B[megendary
+[22d15,Beedrill,Bug,Poison,395,65,90,40,45,80,75,1,FALSE[K
+[23d15,BeedrillMega Beedrill,Bug,Poison,495,65,150,40,15,80,145,1,FALSE[K
+[24d16,Pidgey,Normal,Flying,251,40,45,40,35,35,56,1,FALSE[K
+[25d17,Pidgeotto,Normal,Flying,349,63,60,55,50,50,71,1,FALSE
+[26d18,Pidgeot,Normal,Flying,479,83,80,75,70,70,101,1,FALSE
+[27d18,PidgeotMega Pidgeot,Normal,Flying,579,83,80,80,135,80,121,1,FALSE
+[28d19,Rattata,Normal,,253,30,56,35,25,35,72,1,FALSE
+[29d20,Raticate,Normal,,413,55,81,60,50,70,97,1,FALSE
+[30d21,Spearow,Normal,Flying,262,40,60,30,31,31,70,1,FALSE
+[31d22,Fearow,Normal,Flying,442,65,90,65,61,61,100,1,FALSE
+[32d23,Ekans,Poison,,288,35,60,44,40,54,55,1,FALSE
+[33d24,Arbok,Poison,,438,60,85,69,65,79,80,1,FALSE
+[34d25,Pikachu,Electric,,320,35,55,40,50,50,90,1,FALSE
+[35d26,Raichu,Electric,,485,60,90,55,90,80,110,1,FALSE
+[36d27,Sandshrew,Ground,,300,50,75,85,20,30,40,1,FALSE
+[37d28,Sandslash,Ground,,450,75,100,110,45,55,65,1,FALSE
+[38d29,Nidoran♀,Poison,,275,55,47,52,40,40,41,1,FALSE
+[39d30,Nidorina,Poison,,365,70,62,67,55,55,56,1,FALSE
+[40d31,Nidoqueen,Poison,Ground,505,90,92,87,75,85,76,1,FALSE
+[41d32,Nidoran♂,Poison,,273,46,57,40,40,40,50,1,FALSE
+[43d(B[0;7m^G(B[m Get Help[43;29H(B[0;7m^O(B[m WriteOut[43;57H(B[0;7m^R(B[m Read File[43;85H(B[0;7m^Y(B[m Prev Page[43;113H(B[0;7m^K(B[m Cut Text[43;141H(B[0;7m^C(B[m Cur Pos
+[44d(B[0;7m^X(B[m Exit[44;29H(B[0;7m^J(B[m Justify[44;57H(B[0;7m^W(B[m Where Is[44;85H(B[0;7m^V(B[m Next Page[44;113H(B[0;7m^U(B[m UnCut Text[44;141H(B[0;7m^T(B[m To Spell
+[3d[8d[9d[10d[11d[12d[13d[14d[15d[16d[21d[22d[23d[24d[25d[26d[27d[28d[29d[30d[31d[32d[33d[34d[35d[36d[37d[38d[39d[40d[41d7[3;42r8[42d[20S[1;44r[22;1H33,Nidorino,Poison,,365,61,72,57,55,55,65,1,FALSE
+[23d34,Nidoking,Poison,Ground,505,81,102,77,85,75,85,1,FALSE
+[24d35,Clefairy,Fairy,,323,70,45,48,60,65,35,1,FALSE
+[25d36,Clefable,Fairy,,483,95,70,73,95,90,60,1,FALSE
+[26d37,Vulpix,Fire,,299,38,41,40,50,65,65,1,FALSE
+[27d38,Ninetales,Fire,,505,73,76,75,81,100,100,1,FALSE
+[28d39,Jigglypuff,Normal,Fairy,270,115,45,20,45,25,20,1,FALSE
+[29d40,Wigglytuff,Normal,Fairy,435,140,70,45,85,50,45,1,FALSE
+[30d41,Zubat,Poison,Flying,245,40,45,35,30,40,55,1,FALSE
+[31d42,Golbat,Poison,Flying,455,75,80,70,65,75,90,1,FALSE
+[32d43,Oddish,Grass,Poison,320,45,50,55,75,65,30,1,FALSE
+[33d44,Gloom,Grass,Poison,395,60,65,70,85,75,40,1,FALSE
+[34d45,Vileplume,Grass,Poison,490,75,80,85,110,90,50,1,FALSE
+[35d46,Paras,Bug,Grass,285,35,70,55,45,55,25,1,FALSE
+[36d47,Parasect,Bug,Grass,405,60,95,80,60,80,30,1,FALSE
+[37d48,Venonat,Bug,Poison,305,60,55,50,40,55,45,1,FALSE
+[38d49,Venomoth,Bug,Poison,450,70,65,60,90,75,90,1,FALSE
+[39d50,Diglett,Ground,,265,10,55,25,35,45,95,1,FALSE
+[40d51,Dugtrio,Ground,,405,35,80,50,50,70,120,1,FALSE
+[41d52,Meowth,Normal,,290,40,45,35,40,40,90,1,FALSE
+[22d[23d[24d[25d[26d[27d[28d[29d[30d[31d[35d[36d[37d[38d[39d[40d[41d7[3;42r8[42d[20S[1;44r[22;1H53,Persian,Normal,,440,65,70,60,65,65,115,1,FALSE
+[23d54,Psyduck,Water,,320,50,52,48,65,50,55,1,FALSE
+[24d55,Golduck,Water,,500,80,82,78,95,80,85,1,FALSE
+[25d56,Mankey,Fighting,,305,40,80,35,35,45,70,1,FALSE
+[26d57,Primeape,Fighting,,455,65,105,60,60,70,95,1,FALSE
+[27d58,Growlithe,Fire,,350,55,70,45,70,50,60,1,FALSE
+[28d59,Arcanine,Fire,,555,90,110,80,100,80,95,1,FALSE
+[29d60,Poliwag,Water,,300,40,50,40,40,40,90,1,FALSE
+[30d61,Poliwhirl,Water,,385,65,65,65,50,50,90,1,FALSE
+[31d62,Poliwrath,Water,Fighting,510,90,95,95,70,90,70,1,FALSE
+[32d63,Abra,Psychic,,310,25,20,15,105,55,90,1,FALSE
+[33d64,Kadabra,Psychic,,400,40,35,30,120,70,105,1,FALSE
+[34d65,Alakazam,Psychic,,500,55,50,45,135,95,120,1,FALSE
+[35d65,AlakazamMega Alakazam,Psychic,,590,55,50,65,175,95,150,1,FALSE
+[36d66,Machop,Fighting,,305,70,80,50,35,35,35,1,FALSE
+[37d67,Machoke,Fighting,,405,80,100,70,50,60,45,1,FALSE
+[38d68,Machamp,Fighting,,505,90,130,80,65,85,55,1,FALSE
+[39d69,Bellsprout,Grass,Poison,300,50,75,35,70,30,40,1,FALSE
+[40d70,Weepinbell,Grass,Poison,390,65,90,50,85,45,55,1,FALSE
+[41d71,Victreebel,Grass,Poison,490,80,105,65,100,70,70,1,FALSE
+[22d[23d[24d[25d[26d[27d[28d[29d[30d[31d[32d[33d[34d[35d[36d[37d[38d[39d[40d[41d7[3;42r8[42d[20S[1;44r[22;1H72,Tentacool,Water,Poison,335,40,40,35,50,100,70,1,FALSE
+[23d73,Tentacruel,Water,Poison,515,80,70,65,80,120,100,1,FALSE
+[24d74,Geodude,Rock,Ground,300,40,80,100,30,30,20,1,FALSE
+[25d75,Graveler,Rock,Ground,390,55,95,115,45,45,35,1,FALSE
+[26d76,Golem,Rock,Ground,495,80,120,130,55,65,45,1,FALSE
+[27d77,Ponyta,Fire,,410,50,85,55,65,65,90,1,FALSE
+[28d78,Rapidash,Fire,,500,65,100,70,80,80,105,1,FALSE
+[29d79,Slowpoke,Water,Psychic,315,90,65,65,40,40,15,1,FALSE
+[30d80,Slowbro,Water,Psychic,490,95,75,110,100,80,30,1,FALSE
+[31d80,SlowbroMega Slowbro,Water,Psychic,590,95,75,180,130,80,30,1,FALSE
+[32d81,Magnemite,Electric,Steel,325,25,35,70,95,55,45,1,FALSE
+[33d82,Magneton,Electric,Steel,465,50,60,95,120,70,70,1,FALSE
+[34d83,Farfetch'd,Normal,Flying,352,52,65,55,58,62,60,1,FALSE
+[35d84,Doduo,Normal,Flying,310,35,85,45,35,35,75,1,FALSE
+[36d85,Dodrio,Normal,Flying,460,60,110,70,60,60,100,1,FALSE
+[37d86,Seel,Water,,325,65,45,55,45,70,45,1,FALSE
+[38d87,Dewgong,Water,Ice,475,90,70,80,70,95,70,1,FALSE
+[39d88,Grimer,Poison,,325,80,80,50,40,50,25,1,FALSE
+[40d89,Muk,Poison,,500,105,105,75,65,100,50,1,FALSE
+[41d90,Shellder,Water,,305,30,65,100,45,25,40,1,FALSE
+[22d[23d[24d[25d[28d[29d[30d[31d[32d[33d[34d[35d[36d[37d[38d[39d[40d[41d7[3;42r8[42d[20S[1;44r[22;1H91,Cloyster,Water,Ice,525,50,95,180,85,45,70,1,FALSE
+[23d92,Gastly,Ghost,Poison,310,30,35,30,100,35,80,1,FALSE
+[24d93,Haunter,Ghost,Poison,405,45,50,45,115,55,95,1,FALSE
+[25d94,Gengar,Ghost,Poison,500,60,65,60,130,75,110,1,FALSE
+[26d94,GengarMega Gengar,Ghost,Poison,600,60,65,80,170,95,130,1,FALSE
+[27d95,Onix,Rock,Ground,385,35,45,160,30,45,70,1,FALSE
+[28d96,Drowzee,Psychic,,328,60,48,45,43,90,42,1,FALSE
+[29d97,Hypno,Psychic,,483,85,73,70,73,115,67,1,FALSE
+[30d98,Krabby,Water,,325,30,105,90,25,25,50,1,FALSE
+[31d99,Kingler,Water,,475,55,130,115,50,50,75,1,FALSE
+[32d100,Voltorb,Electric,,330,40,30,50,55,55,100,1,FALSE
+[33d101,Electrode,Electric,,480,60,50,70,80,80,140,1,FALSE
+[34d102,Exeggcute,Grass,Psychic,325,60,40,80,60,45,40,1,FALSE
+[35d103,Exeggutor,Grass,Psychic,520,95,95,85,125,65,55,1,FALSE
+[36d104,Cubone,Ground,,320,50,50,95,40,50,35,1,FALSE
+[37d105,Marowak,Ground,,425,60,80,110,50,80,45,1,FALSE
+[38d106,Hitmonlee,Fighting,,455,50,120,53,35,110,87,1,FALSE
+[39d107,Hitmonchan,Fighting,,455,50,105,79,35,110,76,1,FALSE
+[40d108,Lickitung,Normal,,385,90,55,75,60,75,30,1,FALSE
+[41d109,Koffing,Poison,,340,40,65,95,60,45,35,1,FALSE
+[22d[23d[25d[26d[27d[28d[29d[30d[31d[32d[33d[34d[35d[36d[37d[38d[39d[3;42r[42;1H[20S[1;44r[22;1H110,Weezing,Poison,,490,65,90,120,85,70,60,1,FALSE
+[23d111,Rhyhorn,Ground,Rock,345,80,85,95,30,30,25,1,FALSE
+[24d112,Rhydon,Ground,Rock,485,105,130,120,45,45,40,1,FALSE
+[25d113,Chansey,Normal,,450,250,5,5,35,105,50,1,FALSE
+[26d114,Tangela,Grass,,435,65,55,115,100,40,60,1,FALSE
+[27d115,Kangaskhan,Normal,,490,105,95,80,40,80,90,1,FALSE
+[28d115,KangaskhanMega Kangaskhan,Normal,,590,105,125,100,60,100,100,1,FALSE
+[29d116,Horsea,Water,,295,30,40,70,70,25,60,1,FALSE
+[30d117,Seadra,Water,,440,55,65,95,95,45,85,1,FALSE
+[31d118,Goldeen,Water,,320,45,67,60,35,50,63,1,FALSE
+[32d119,Seaking,Water,,450,80,92,65,65,80,68,1,FALSE
+[33d120,Staryu,Water,,340,30,45,55,70,55,85,1,FALSE
+[34d121,Starmie,Water,Psychic,520,60,75,85,100,85,115,1,FALSE
+[35d122,Mr. Mime,Psychic,Fairy,460,40,45,65,100,120,90,1,FALSE
+[36d123,Scyther,Bug,Flying,500,70,110,80,55,80,105,1,FALSE
+[37d124,Jynx,Ice,Psychic,455,65,50,35,115,95,95,1,FALSE
+[38d125,Electabuzz,Electric,,490,65,83,57,95,85,105,1,FALSE
+[39d126,Magmar,Fire,,495,65,95,57,100,85,93,1,FALSE
+[40d127,Pinsir,Bug,,500,65,125,100,55,70,85,1,FALSE
+[41d127,PinsirMega Pinsir,Bug,Flying,600,65,155,120,65,90,105,1,FALSE
+[24d[26d[27d[28d[29d[30d[31d[32d[33d[34d[35d[36d[37d[38d[39d[40d[41d7[3;42r8[42d[20S[1;44r[22;1H128,Tauros,Normal,,490,75,100,95,40,70,110,1,FALSE
+[23d129,Magikarp,Water,,200,20,10,55,15,20,80,1,FALSE
+[24d130,Gyarados,Water,Flying,540,95,125,79,60,100,81,1,FALSE
+[25d130,GyaradosMega Gyarados,Water,Dark,640,95,155,109,70,130,81,1,FALSE
+[26d131,Lapras,Water,Ice,535,130,85,80,85,95,60,1,FALSE
+[27d132,Ditto,Normal,,288,48,48,48,48,48,48,1,FALSE
+[28d133,Eevee,Normal,,325,55,55,50,45,65,55,1,FALSE
+[29d134,Vaporeon,Water,,525,130,65,60,110,95,65,1,FALSE
+[30d135,Jolteon,Electric,,525,65,65,60,110,95,130,1,FALSE
+[31d136,Flareon,Fire,,525,65,130,60,95,110,65,1,FALSE
+[32d137,Porygon,Normal,,395,65,60,70,85,75,40,1,FALSE
+[33d138,Omanyte,Rock,Water,355,35,40,100,90,55,35,1,FALSE
+[34d139,Omastar,Rock,Water,495,70,60,125,115,70,55,1,FALSE
+[35d140,Kabuto,Rock,Water,355,30,80,90,55,45,55,1,FALSE
+[36d141,Kabutops,Rock,Water,495,60,115,105,65,70,80,1,FALSE
+[37d142,Aerodactyl,Rock,Flying,515,80,105,65,60,75,130,1,FALSE
+[38d142,AerodactylMega Aerodactyl,Rock,Flying,615,80,135,85,70,95,150,1,FALSE
+[39d143,Snorlax,Normal,,540,160,110,65,65,110,30,1,FALSE
+[40d144,Articuno,Ice,Flying,580,90,85,100,95,125,85,1,TRUE
+[41d145,Zapdos,Electric,Flying,580,90,90,85,125,90,100,1,TRUE
+[22d[23d[24d[25d[26d[27d[28d[29d[30d[31d[32d[33d[36d[37d[38d[39d[40d[41d7[3;42r8[42d[20S[1;44r[22;1H146,Moltres,Fire,Flying,580,90,100,90,125,85,90,1,TRUE
+[23d147,Dratini,Dragon,,300,41,64,45,50,50,50,1,FALSE
+[24d148,Dragonair,Dragon,,420,61,84,65,70,70,70,1,FALSE
+[25d149,Dragonite,Dragon,Flying,600,91,134,95,100,100,80,1,FALSE
+[26d150,Mewtwo,Psychic,,680,106,110,90,154,90,130,1,TRUE
+[27d150,MewtwoMega Mewtwo X,Psychic,Fighting,780,106,190,100,154,100,130,1,TRUE
+[28d150,MewtwoMega Mewtwo Y,Psychic,,780,106,150,70,194,120,140,1,TRUE
+[29d151,Mew,Psychic,,600,100,100,100,100,100,100,1,FALSE
+[30d152,Chikorita,Grass,,318,45,49,65,49,65,45,2,FALSE
+[31d153,Bayleef,Grass,,405,60,62,80,63,80,60,2,FALSE
+[32d154,Meganium,Grass,,525,80,82,100,83,100,80,2,FALSE
+[33d155,Cyndaquil,Fire,,309,39,52,43,60,50,65,2,FALSE
+[34d156,Quilava,Fire,,405,58,64,58,80,65,80,2,FALSE
+[35d157,Typhlosion,Fire,,534,78,84,78,109,85,100,2,FALSE
+[36d158,Totodile,Water,,314,50,65,64,44,48,43,2,FALSE
+[37d159,Croconaw,Water,,405,65,80,80,59,63,58,2,FALSE
+[38d160,Feraligatr,Water,,530,85,105,100,79,83,78,2,FALSE
+[39d161,Sentret,Normal,,215,35,46,34,35,45,20,2,FALSE
+[40d162,Furret,Normal,,415,85,76,64,45,55,90,2,FALSE
+[41d163,Hoothoot,Normal,Flying,262,60,30,30,36,56,50,2,FALSE
+[22d[23d[24d[25d[26d[27d[28d[29d[30d[31d[32d[33d[34d[35d[36d[37d[38d[39d[43d[J[44;168H[44;1H[?1049l
+[?1l>]0;tlipke@sol28:~/Lab5Terminal[tlipke@sol28 Lab5Terminal]$ 
+[K[tlipke@sol28 Lab5Terminal]$ wc -1 Pokemon.csv
+wc: invalid option -- '1'
+Try 'wc --help' for more information.
+]0;tlipke@sol28:~/Lab5Terminal[tlipke@sol28 Lab5Terminal]$ wc -l Pokemon.csv
+800 Pokemon.csv
+]0;tlipke@sol28:~/Lab5Terminal[tlipke@sol28 Lab5Terminal]$ awk -F "\"*,\"*" '{print $2}' textfi[1P[[1[1[1[1[1[1[1PPokemon[C[C[C[C
+Name
+Bulbasaur
+Ivysaur
+Venusaur
+VenusaurMega Venusaur
+Charmander
+Charmeleon
+Charizard
+CharizardMega Charizard X
+CharizardMega Charizard Y
+Squirtle
+Wartortle
+Blastoise
+BlastoiseMega Blastoise
+Caterpie
+Metapod
+Butterfree
+Weedle
+Kakuna
+Beedrill
+BeedrillMega Beedrill
+Pidgey
+Pidgeotto
+Pidgeot
+PidgeotMega Pidgeot
+Rattata
+Raticate
+Spearow
+Fearow
+Ekans
+Arbok
+Pikachu
+Raichu
+Sandshrew
+Sandslash
+Nidoran♀
+Nidorina
+Nidoqueen
+Nidoran♂
+Nidorino
+Nidoking
+Clefairy
+Clefable
+Vulpix
+Ninetales
+Jigglypuff
+Wigglytuff
+Zubat
+Golbat
+Oddish
+Gloom
+Vileplume
+Paras
+Parasect
+Venonat
+Venomoth
+Diglett
+Dugtrio
+Meowth
+Persian
+Psyduck
+Golduck
+Mankey
+Primeape
+Growlithe
+Arcanine
+Poliwag
+Poliwhirl
+Poliwrath
+Abra
+Kadabra
+Alakazam
+AlakazamMega Alakazam
+Machop
+Machoke
+Machamp
+Bellsprout
+Weepinbell
+Victreebel
+Tentacool
+Tentacruel
+Geodude
+Graveler
+Golem
+Ponyta
+Rapidash
+Slowpoke
+Slowbro
+SlowbroMega Slowbro
+Magnemite
+Magneton
+Farfetch'd
+Doduo
+Dodrio
+Seel
+Dewgong
+Grimer
+Muk
+Shellder
+Cloyster
+Gastly
+Haunter
+Gengar
+GengarMega Gengar
+Onix
+Drowzee
+Hypno
+Krabby
+Kingler
+Voltorb
+Electrode
+Exeggcute
+Exeggutor
+Cubone
+Marowak
+Hitmonlee
+Hitmonchan
+Lickitung
+Koffing
+Weezing
+Rhyhorn
+Rhydon
+Chansey
+Tangela
+Kangaskhan
+KangaskhanMega Kangaskhan
+Horsea
+Seadra
+Goldeen
+Seaking
+Staryu
+Starmie
+Mr. Mime
+Scyther
+Jynx
+Electabuzz
+Magmar
+Pinsir
+PinsirMega Pinsir
+Tauros
+Magikarp
+Gyarados
+GyaradosMega Gyarados
+Lapras
+Ditto
+Eevee
+Vaporeon
+Jolteon
+Flareon
+Porygon
+Omanyte
+Omastar
+Kabuto
+Kabutops
+Aerodactyl
+AerodactylMega Aerodactyl
+Snorlax
+Articuno
+Zapdos
+Moltres
+Dratini
+Dragonair
+Dragonite
+Mewtwo
+MewtwoMega Mewtwo X
+MewtwoMega Mewtwo Y
+Mew
+Chikorita
+Bayleef
+Meganium
+Cyndaquil
+Quilava
+Typhlosion
+Totodile
+Croconaw
+Feraligatr
+Sentret
+Furret
+Hoothoot
+Noctowl
+Ledyba
+Ledian
+Spinarak
+Ariados
+Crobat
+Chinchou
+Lanturn
+Pichu
+Cleffa
+Igglybuff
+Togepi
+Togetic
+Natu
+Xatu
+Mareep
+Flaaffy
+Ampharos
+AmpharosMega Ampharos
+Bellossom
+Marill
+Azumarill
+Sudowoodo
+Politoed
+Hoppip
+Skiploom
+Jumpluff
+Aipom
+Sunkern
+Sunflora
+Yanma
+Wooper
+Quagsire
+Espeon
+Umbreon
+Murkrow
+Slowking
+Misdreavus
+Unown
+Wobbuffet
+Girafarig
+Pineco
+Forretress
+Dunsparce
+Gligar
+Steelix
+SteelixMega Steelix
+Snubbull
+Granbull
+Qwilfish
+Scizor
+ScizorMega Scizor
+Shuckle
+Heracross
+HeracrossMega Heracross
+Sneasel
+Teddiursa
+Ursaring
+Slugma
+Magcargo
+Swinub
+Piloswine
+Corsola
+Remoraid
+Octillery
+Delibird
+Mantine
+Skarmory
+Houndour
+Houndoom
+HoundoomMega Houndoom
+Kingdra
+Phanpy
+Donphan
+Porygon2
+Stantler
+Smeargle
+Tyrogue
+Hitmontop
+Smoochum
+Elekid
+Magby
+Miltank
+Blissey
+Raikou
+Entei
+Suicune
+Larvitar
+Pupitar
+Tyranitar
+TyranitarMega Tyranitar
+Lugia
+Ho-oh
+Celebi
+Treecko
+Grovyle
+Sceptile
+SceptileMega Sceptile
+Torchic
+Combusken
+Blaziken
+BlazikenMega Blaziken
+Mudkip
+Marshtomp
+Swampert
+SwampertMega Swampert
+Poochyena
+Mightyena
+Zigzagoon
+Linoone
+Wurmple
+Silcoon
+Beautifly
+Cascoon
+Dustox
+Lotad
+Lombre
+Ludicolo
+Seedot
+Nuzleaf
+Shiftry
+Taillow
+Swellow
+Wingull
+Pelipper
+Ralts
+Kirlia
+Gardevoir
+GardevoirMega Gardevoir
+Surskit
+Masquerain
+Shroomish
+Breloom
+Slakoth
+Vigoroth
+Slaking
+Nincada
+Ninjask
+Shedinja
+Whismur
+Loudred
+Exploud
+Makuhita
+Hariyama
+Azurill
+Nosepass
+Skitty
+Delcatty
+Sableye
+SableyeMega Sableye
+Mawile
+MawileMega Mawile
+Aron
+Lairon
+Aggron
+AggronMega Aggron
+Meditite
+Medicham
+MedichamMega Medicham
+Electrike
+Manectric
+ManectricMega Manectric
+Plusle
+Minun
+Volbeat
+Illumise
+Roselia
+Gulpin
+Swalot
+Carvanha
+Sharpedo
+SharpedoMega Sharpedo
+Wailmer
+Wailord
+Numel
+Camerupt
+CameruptMega Camerupt
+Torkoal
+Spoink
+Grumpig
+Spinda
+Trapinch
+Vibrava
+Flygon
+Cacnea
+Cacturne
+Swablu
+Altaria
+AltariaMega Altaria
+Zangoose
+Seviper
+Lunatone
+Solrock
+Barboach
+Whiscash
+Corphish
+Crawdaunt
+Baltoy
+Claydol
+Lileep
+Cradily
+Anorith
+Armaldo
+Feebas
+Milotic
+Castform
+Kecleon
+Shuppet
+Banette
+BanetteMega Banette
+Duskull
+Dusclops
+Tropius
+Chimecho
+Absol
+AbsolMega Absol
+Wynaut
+Snorunt
+Glalie
+GlalieMega Glalie
+Spheal
+Sealeo
+Walrein
+Clamperl
+Huntail
+Gorebyss
+Relicanth
+Luvdisc
+Bagon
+Shelgon
+Salamence
+SalamenceMega Salamence
+Beldum
+Metang
+Metagross
+MetagrossMega Metagross
+Regirock
+Regice
+Registeel
+Latias
+LatiasMega Latias
+Latios
+LatiosMega Latios
+Kyogre
+KyogrePrimal Kyogre
+Groudon
+GroudonPrimal Groudon
+Rayquaza
+RayquazaMega Rayquaza
+Jirachi
+DeoxysNormal Forme
+DeoxysAttack Forme
+DeoxysDefense Forme
+DeoxysSpeed Forme
+Turtwig
+Grotle
+Torterra
+Chimchar
+Monferno
+Infernape
+Piplup
+Prinplup
+Empoleon
+Starly
+Staravia
+Staraptor
+Bidoof
+Bibarel
+Kricketot
+Kricketune
+Shinx
+Luxio
+Luxray
+Budew
+Roserade
+Cranidos
+Rampardos
+Shieldon
+Bastiodon
+Burmy
+WormadamPlant Cloak
+WormadamSandy Cloak
+WormadamTrash Cloak
+Mothim
+Combee
+Vespiquen
+Pachirisu
+Buizel
+Floatzel
+Cherubi
+Cherrim
+Shellos
+Gastrodon
+Ambipom
+Drifloon
+Drifblim
+Buneary
+Lopunny
+LopunnyMega Lopunny
+Mismagius
+Honchkrow
+Glameow
+Purugly
+Chingling
+Stunky
+Skuntank
+Bronzor
+Bronzong
+Bonsly
+Mime Jr.
+Happiny
+Chatot
+Spiritomb
+Gible
+Gabite
+Garchomp
+GarchompMega Garchomp
+Munchlax
+Riolu
+Lucario
+LucarioMega Lucario
+Hippopotas
+Hippowdon
+Skorupi
+Drapion
+Croagunk
+Toxicroak
+Carnivine
+Finneon
+Lumineon
+Mantyke
+Snover
+Abomasnow
+AbomasnowMega Abomasnow
+Weavile
+Magnezone
+Lickilicky
+Rhyperior
+Tangrowth
+Electivire
+Magmortar
+Togekiss
+Yanmega
+Leafeon
+Glaceon
+Gliscor
+Mamoswine
+Porygon-Z
+Gallade
+GalladeMega Gallade
+Probopass
+Dusknoir
+Froslass
+Rotom
+RotomHeat Rotom
+RotomWash Rotom
+RotomFrost Rotom
+RotomFan Rotom
+RotomMow Rotom
+Uxie
+Mesprit
+Azelf
+Dialga
+Palkia
+Heatran
+Regigigas
+GiratinaAltered Forme
+GiratinaOrigin Forme
+Cresselia
+Phione
+Manaphy
+Darkrai
+ShayminLand Forme
+ShayminSky Forme
+Arceus
+Victini
+Snivy
+Servine
+Serperior
+Tepig
+Pignite
+Emboar
+Oshawott
+Dewott
+Samurott
+Patrat
+Watchog
+Lillipup
+Herdier
+Stoutland
+Purrloin
+Liepard
+Pansage
+Simisage
+Pansear
+Simisear
+Panpour
+Simipour
+Munna
+Musharna
+Pidove
+Tranquill
+Unfezant
+Blitzle
+Zebstrika
+Roggenrola
+Boldore
+Gigalith
+Woobat
+Swoobat
+Drilbur
+Excadrill
+Audino
+AudinoMega Audino
+Timburr
+Gurdurr
+Conkeldurr
+Tympole
+Palpitoad
+Seismitoad
+Throh
+Sawk
+Sewaddle
+Swadloon
+Leavanny
+Venipede
+Whirlipede
+Scolipede
+Cottonee
+Whimsicott
+Petilil
+Lilligant
+Basculin
+Sandile
+Krokorok
+Krookodile
+Darumaka
+DarmanitanStandard Mode
+DarmanitanZen Mode
+Maractus
+Dwebble
+Crustle
+Scraggy
+Scrafty
+Sigilyph
+Yamask
+Cofagrigus
+Tirtouga
+Carracosta
+Archen
+Archeops
+Trubbish
+Garbodor
+Zorua
+Zoroark
+Minccino
+Cinccino
+Gothita
+Gothorita
+Gothitelle
+Solosis
+Duosion
+Reuniclus
+Ducklett
+Swanna
+Vanillite
+Vanillish
+Vanilluxe
+Deerling
+Sawsbuck
+Emolga
+Karrablast
+Escavalier
+Foongus
+Amoonguss
+Frillish
+Jellicent
+Alomomola
+Joltik
+Galvantula
+Ferroseed
+Ferrothorn
+Klink
+Klang
+Klinklang
+Tynamo
+Eelektrik
+Eelektross
+Elgyem
+Beheeyem
+Litwick
+Lampent
+Chandelure
+Axew
+Fraxure
+Haxorus
+Cubchoo
+Beartic
+Cryogonal
+Shelmet
+Accelgor
+Stunfisk
+Mienfoo
+Mienshao
+Druddigon
+Golett
+Golurk
+Pawniard
+Bisharp
+Bouffalant
+Rufflet
+Braviary
+Vullaby
+Mandibuzz
+Heatmor
+Durant
+Deino
+Zweilous
+Hydreigon
+Larvesta
+Volcarona
+Cobalion
+Terrakion
+Virizion
+TornadusIncarnate Forme
+TornadusTherian Forme
+ThundurusIncarnate Forme
+ThundurusTherian Forme
+Reshiram
+Zekrom
+LandorusIncarnate Forme
+LandorusTherian Forme
+Kyurem
+KyuremBlack Kyurem
+KyuremWhite Kyurem
+KeldeoOrdinary Forme
+KeldeoResolute Forme
+MeloettaAria Forme
+MeloettaPirouette Forme
+Genesect
+Chespin
+Quilladin
+Chesnaught
+Fennekin
+Braixen
+Delphox
+Froakie
+Frogadier
+Greninja
+Bunnelby
+Diggersby
+Fletchling
+Fletchinder
+Talonflame
+Scatterbug
+Spewpa
+Vivillon
+Litleo
+Pyroar
+Flabébé
+Floette
+Florges
+Skiddo
+Gogoat
+Pancham
+Pangoro
+Furfrou
+Espurr
+MeowsticMale
+MeowsticFemale
+Honedge
+Doublade
+AegislashBlade Forme
+AegislashShield Forme
+Spritzee
+Aromatisse
+Swirlix
+Slurpuff
+Inkay
+Malamar
+Binacle
+Barbaracle
+Skrelp
+Dragalge
+Clauncher
+Clawitzer
+Helioptile
+Heliolisk
+Tyrunt
+Tyrantrum
+Amaura
+Aurorus
+Sylveon
+Hawlucha
+Dedenne
+Carbink
+Goomy
+Sliggoo
+Goodra
+Klefki
+Phantump
+Trevenant
+PumpkabooAverage Size
+PumpkabooSmall Size
+PumpkabooLarge Size
+PumpkabooSuper Size
+GourgeistAverage Size
+GourgeistSmall Size
+GourgeistLarge Size
+GourgeistSuper Size
+Bergmite
+Avalugg
+Noibat
+Noivern
+Xerneas
+Yveltal
+Zygarde50% Forme
+Diancie
+DiancieMega Diancie
+HoopaHoopa Confined
+HoopaHoopa Unbound
+Volcanion
+]0;tlipke@sol28:~/Lab5Terminal[tlipke@sol28 Lab5Terminal]$ nano Pokemon.csv
+[?1049h[1;42r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1              File: Pokemon.csv                                   [3;1H(B[m#,Name,Type 1,Type 2,Total,HP,Attack,Defense,Sp. Atk,Sp. Def,Speed,Generation,Leg$[4;1H1,Bulbasaur,Grass,Poison,318,45,49,49,65,65,45,1,FALSE
+[5d2,Ivysaur,Grass,Poison,405,60,62,63,80,80,60,1,FALSE
+[6d3,Venusaur,Grass,Poison,525,80,82,83,100,100,80,1,FALSE
+[7d3,VenusaurMega Venusaur,Grass,Poison,625,80,100,123,122,120,80,1,FALSE
+[8d4,Charmander,Fire,,309,39,52,43,60,50,65,1,FALSE
+[9d5,Charmeleon,Fire,,405,58,64,58,80,65,80,1,FALSE
+[10d6,Charizard,Fire,Flying,534,78,84,78,109,85,100,1,FALSE
+[11d6,CharizardMega Charizard X,Fire,Dragon,634,78,130,111,130,85,100,1,FALSE
+[12d6,CharizardMega Charizard Y,Fire,Flying,634,78,104,78,159,115,100,1,FALSE
+[13d7,Squirtle,Water,,314,44,48,65,50,64,43,1,FALSE
+[14d8,Wartortle,Water,,405,59,63,80,65,80,58,1,FALSE
+[15d9,Blastoise,Water,,530,79,83,100,85,105,78,1,FALSE
+[16d9,BlastoiseMega Blastoise,Water,,630,79,103,120,135,115,78,1,FALSE
+[17d10,Caterpie,Bug,,195,45,30,35,20,20,45,1,FALSE
+[18d11,Metapod,Bug,,205,50,20,55,25,25,30,1,FALSE
+[19d12,Butterfree,Bug,Flying,395,60,45,50,90,80,70,1,FALSE
+[20d13,Weedle,Bug,Poison,195,40,35,30,20,20,50,1,FALSE
+[21d14,Kakuna,Bug,Poison,205,45,25,50,25,25,35,1,FALSE
+[22d15,Beedrill,Bug,Poison,395,65,90,40,45,80,75,1,FALSE
+[23d15,BeedrillMega Beedrill,Bug,Poison,495,65,150,40,15,80,145,1,FALSE
+[24d16,Pidgey,Normal,Flying,251,40,45,40,35,35,56,1,FALSE
+[25d17,Pidgeotto,Normal,Flying,349,63,60,55,50,50,71,1,FALSE
+[26d18,Pidgeot,Normal,Flying,479,83,80,75,70,70,101,1,FALSE
+[27d18,PidgeotMega Pidgeot,Normal,Flying,579,83,80,80,135,80,121,1,FALSE
+[28d19,Rattata,Normal,,253,30,56,35,25,35,72,1,FALSE
+[29d20,Raticate,Normal,,413,55,81,60,50,70,97,1,FALSE
+[30d21,Spearow,Normal,Flying,262,40,60,30,31,31,70,1,FALSE
+[31d22,Fearow,Normal,Flying,442,65,90,65,61,61,100,1,FALSE
+[32d23,Ekans,Poison,,288,35,60,44,40,54,55,1,FALSE
+[33d24,Arbok,Poison,,438,60,85,69,65,79,80,1,FALSE
+[34d25,Pikachu,Electric,,320,35,55,40,50,50,90,1,FALSE
+[35d26,Raichu,Electric,,485,60,90,55,90,80,110,1,FALSE
+[36d27,Sandshrew,Ground,,300,50,75,85,20,30,40,1,FALSE
+[37d28,Sandslash,Ground,,450,75,100,110,45,55,65,1,FALSE
+[38d29,Nidoran♀,Poison,,275,55,47,52,40,40,41,1,FALSE
+[39d30,Nidorina,Poison,,365,70,62,67,55,55,56,1,FALSE[40;19H(B[0;7m[ Read 801 lines (Converted from DOS format) ]
+[41d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos
+[42d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell
+[3d[41d[J[42;82H[42;1H[?1049l
+[?1l>]0;tlipke@sol28:~/Lab5Terminal[tlipke@sol28 Lab5Terminal]$ grep "piz[C[[1[1[1[1[1P[1@T[1@R[1@U[1@E[C[C[C[C[C[C[1P[[1[1[1[1P[1@P[1@o[1@k[1@e[1@m[1@o[1@n[C[C[C[C[C[C[C[C[C[C[C[[1[1[1[1[1PLegan[1[1[1Pendary[C[C[C[C
+]0;tlipke@sol28:~/Lab5Terminal[tlipke@sol28 Lab5Terminal]$ ls
+Legendary.csv  Pokemon.csv  README.md
+]0;tlipke@sol28:~/Lab5Terminal[tlipke@sol28 Lab5Terminal]$ nano Legendary.csv
+[?1049h[1;42r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1             File: Legendary.csv                                  [3;1H(B[m144,Articuno,Ice,Flying,580,90,85,100,95,125,85,1,TRUE
+[4d145,Zapdos,Electric,Flying,580,90,90,85,125,90,100,1,TRUE
+[5d146,Moltres,Fire,Flying,580,90,100,90,125,85,90,1,TRUE
+[6d150,Mewtwo,Psychic,,680,106,110,90,154,90,130,1,TRUE
+[7d150,MewtwoMega Mewtwo X,Psychic,Fighting,780,106,190,100,154,100,130,1,TRUE
+[8d150,MewtwoMega Mewtwo Y,Psychic,,780,106,150,70,194,120,140,1,TRUE
+[9d243,Raikou,Electric,,580,90,85,75,115,100,115,2,TRUE
+[10d244,Entei,Fire,,580,115,115,85,90,75,100,2,TRUE
+[11d245,Suicune,Water,,580,100,75,115,90,115,85,2,TRUE
+[12d249,Lugia,Psychic,Flying,680,106,90,130,90,154,110,2,TRUE
+[13d250,Ho-oh,Fire,Flying,680,106,130,90,110,154,90,2,TRUE
+[14d377,Regirock,Rock,,580,80,100,200,50,100,50,3,TRUE
+[15d378,Regice,Ice,,580,80,50,100,100,200,50,3,TRUE
+[16d379,Registeel,Steel,,580,80,75,150,75,150,50,3,TRUE
+[17d380,Latias,Dragon,Psychic,600,80,80,90,110,130,110,3,TRUE
+[18d380,LatiasMega Latias,Dragon,Psychic,700,80,100,120,140,150,110,3,TRUE
+[19d381,Latios,Dragon,Psychic,600,80,90,80,130,110,110,3,TRUE
+[20d381,LatiosMega Latios,Dragon,Psychic,700,80,130,100,160,120,110,3,TRUE
+[21d382,Kyogre,Water,,670,100,100,90,150,140,90,3,TRUE
+[22d382,KyogrePrimal Kyogre,Water,,770,100,150,90,180,160,90,3,TRUE
+[23d383,Groudon,Ground,,670,100,150,140,100,90,90,3,TRUE
+[24d383,GroudonPrimal Groudon,Ground,Fire,770,100,180,160,150,90,90,3,TRUE
+[25d384,Rayquaza,Dragon,Flying,680,105,150,90,150,90,95,3,TRUE
+[26d384,RayquazaMega Rayquaza,Dragon,Flying,780,105,180,100,180,100,115,3,TRUE
+[27d385,Jirachi,Steel,Psychic,600,100,100,100,100,100,100,3,TRUE
+[28d386,DeoxysNormal Forme,Psychic,,600,50,150,50,150,50,150,3,TRUE
+[29d386,DeoxysAttack Forme,Psychic,,600,50,180,20,180,20,150,3,TRUE
+[30d386,DeoxysDefense Forme,Psychic,,600,50,70,160,70,160,90,3,TRUE
+[31d386,DeoxysSpeed Forme,Psychic,,600,50,95,90,95,90,180,3,TRUE
+[32d480,Uxie,Psychic,,580,75,75,130,75,130,95,4,TRUE
+[33d481,Mesprit,Psychic,,580,80,105,105,105,105,80,4,TRUE
+[34d482,Azelf,Psychic,,580,75,125,70,125,70,115,4,TRUE
+[35d483,Dialga,Steel,Dragon,680,100,120,120,150,100,90,4,TRUE
+[36d484,Palkia,Water,Dragon,680,90,120,100,150,120,100,4,TRUE
+[37d485,Heatran,Fire,Steel,600,91,90,106,130,106,77,4,TRUE
+[38d486,Regigigas,Normal,,670,110,160,110,80,110,100,4,TRUE
+[39d487,GiratinaAltered Forme,Ghost,Dragon,680,150,100,120,100,120,90,4,TRUE[40;19H(B[0;7m[ Read 65 lines (Converted from DOS format) ]
+[41d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos
+[42d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell
+[3d[4d[A[4d[5d[6d[7d[8d[9d[10d[11d[13d[14d[15d[16d[18d[19d[20d[21d[22d[23d[40d[K[24d[25d[26d[28d[29d[30d[31d[32d[33d[34d[35d[36d[37d[38d[3;40r[40;1H[19S[1;42r[21;1H487,GiratinaOrigin Forme,Ghost,Dragon,680,150,120,100,120,100,90,4,TRUE
+[22d491,Darkrai,Dark,,600,70,90,90,135,90,125,4,TRUE
+[23d492,ShayminLand Forme,Grass,,600,100,100,100,100,100,100,4,TRUE
+[24d492,ShayminSky Forme,Grass,Flying,600,100,103,75,120,75,127,4,TRUE
+[25d493,Arceus,Normal,,720,120,120,120,120,120,120,4,TRUE
+[26d494,Victini,Psychic,Fire,600,100,100,100,100,100,100,5,TRUE
+[27d638,Cobalion,Steel,Fighting,580,91,90,129,90,72,108,5,TRUE
+[28d639,Terrakion,Rock,Fighting,580,91,129,90,72,90,108,5,TRUE
+[29d640,Virizion,Grass,Fighting,580,91,90,72,90,129,108,5,TRUE
+[30d641,TornadusIncarnate Forme,Flying,,580,79,115,70,125,80,111,5,TRUE
+[31d641,TornadusTherian Forme,Flying,,580,79,100,80,110,90,121,5,TRUE
+[32d642,ThundurusIncarnate Forme,Electric,Flying,580,79,115,70,125,80,111,5,TRUE
+[33d642,ThundurusTherian Forme,Electric,Flying,580,79,105,70,145,80,101,5,TRUE
+[34d643,Reshiram,Dragon,Fire,680,100,120,100,150,120,90,5,TRUE
+[35d644,Zekrom,Dragon,Electric,680,100,150,120,120,100,90,5,TRUE
+[36d645,LandorusIncarnate Forme,Ground,Flying,600,89,125,90,115,80,101,5,TRUE
+[37d645,LandorusTherian Forme,Ground,Flying,600,89,145,90,105,80,91,5,TRUE
+[38d646,Kyurem,Dragon,Ice,660,125,130,90,130,90,95,5,TRUE
+[39d646,KyuremBlack Kyurem,Dragon,Ice,700,125,170,100,120,90,95,5,TRUE
+[21d[22d[23d[24d[25d[26d[27d[33d[34d[35d[36d[37d[38d[39d7[3;40r8[40d[19S[1;42r[21;1H646,KyuremWhite Kyurem,Dragon,Ice,700,125,120,90,170,100,95,5,TRUE
+[22d716,Xerneas,Fairy,,680,126,131,95,131,98,99,6,TRUE
+[23d717,Yveltal,Dark,Flying,680,126,131,95,131,98,99,6,TRUE
+[24d718,Zygarde50% Forme,Dragon,Ground,600,108,100,121,81,95,95,6,TRUE
+[25d719,Diancie,Rock,Fairy,600,50,100,150,100,150,50,6,TRUE
+[26d719,DiancieMega Diancie,Rock,Fairy,700,50,160,110,160,110,110,6,TRUE
+[27d720,HoopaHoopa Confined,Psychic,Ghost,600,80,110,60,150,130,70,6,TRUE
+[28d720,HoopaHoopa Unbound,Psychic,Dark,680,80,160,60,170,130,80,6,TRUE
+[29d721,Volcanion,Fire,Water,600,80,110,120,130,90,70,6,TRUE
+[21d[22d[23d[24d[25d[26d[27d[28d[29d[30d[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[4d[A[2;39r[2;1H[19T[1;42r[3;1H382,KyogrePrimal Kyogre,Water,,770,100,150,90,180,160,90,3,TRUE
+[4d383,Groudon,Ground,,670,100,150,140,100,90,90,3,TRUE
+[5d383,GroudonPrimal Groudon,Ground,Fire,770,100,180,160,150,90,90,3,TRUE
+[6d384,Rayquaza,Dragon,Flying,680,105,150,90,150,90,95,3,TRUE
+[7d384,RayquazaMega Rayquaza,Dragon,Flying,780,105,180,100,180,100,115,3,TRUE
+[8d385,Jirachi,Steel,Psychic,600,100,100,100,100,100,100,3,TRUE
+[9d386,DeoxysNormal Forme,Psychic,,600,50,150,50,150,50,150,3,TRUE
+[10d386,DeoxysAttack Forme,Psychic,,600,50,180,20,180,20,150,3,TRUE
+[11d386,DeoxysDefense Forme,Psychic,,600,50,70,160,70,160,90,3,TRUE
+[12d386,DeoxysSpeed Forme,Psychic,,600,50,95,90,95,90,180,3,TRUE
+[13d480,Uxie,Psychic,,580,75,75,130,75,130,95,4,TRUE
+[14d481,Mesprit,Psychic,,580,80,105,105,105,105,80,4,TRUE
+[15d482,Azelf,Psychic,,580,75,125,70,125,70,115,4,TRUE
+[16d483,Dialga,Steel,Dragon,680,100,120,120,150,100,90,4,TRUE
+[17d484,Palkia,Water,Dragon,680,90,120,100,150,120,100,4,TRUE
+[18d485,Heatran,Fire,Steel,600,91,90,106,130,106,77,4,TRUE
+[19d486,Regigigas,Normal,,670,110,160,110,80,110,100,4,TRUE
+[20d487,GiratinaAltered Forme,Ghost,Dragon,680,150,100,120,100,120,90,4,TRUE
+[21d487,GiratinaOrigin Forme,Ghost,Dragon,680,150,120,100,120,100,90,4,TRUE
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2;39r[2;1H[19T[1;42r[3;1H144,Articuno,Ice,Flying,580,90,85,100,95,125,85,1,TRUE
+[4d145,Zapdos,Electric,Flying,580,90,90,85,125,90,100,1,TRUE
+[5d146,Moltres,Fire,Flying,580,90,100,90,125,85,90,1,TRUE
+[6d150,Mewtwo,Psychic,,680,106,110,90,154,90,130,1,TRUE
+[7d150,MewtwoMega Mewtwo X,Psychic,Fighting,780,106,190,100,154,100,130,1,TRUE
+[8d150,MewtwoMega Mewtwo Y,Psychic,,780,106,150,70,194,120,140,1,TRUE
+[9d243,Raikou,Electric,,580,90,85,75,115,100,115,2,TRUE
+[10d244,Entei,Fire,,580,115,115,85,90,75,100,2,TRUE
+[11d245,Suicune,Water,,580,100,75,115,90,115,85,2,TRUE
+[12d249,Lugia,Psychic,Flying,680,106,90,130,90,154,110,2,TRUE
+[13d250,Ho-oh,Fire,Flying,680,106,130,90,110,154,90,2,TRUE
+[14d377,Regirock,Rock,,580,80,100,200,50,100,50,3,TRUE
+[15d378,Regice,Ice,,580,80,50,100,100,200,50,3,TRUE
+[16d379,Registeel,Steel,,580,80,75,150,75,150,50,3,TRUE
+[17d380,Latias,Dragon,Psychic,600,80,80,90,110,130,110,3,TRUE
+[18d380,LatiasMega Latias,Dragon,Psychic,700,80,100,120,140,150,110,3,TRUE
+[19d381,Latios,Dragon,Psychic,600,80,90,80,130,110,110,3,TRUE
+[20d381,LatiosMega Latios,Dragon,Psychic,700,80,130,100,160,120,110,3,TRUE
+[21d382,Kyogre,Water,,670,100,100,90,150,140,90,3,TRUE
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[4d[5d[6d[7d[8d[9d[12d[13d[14d[15d[16d[17d[18d[19d[20d[21d[22d[23d[24d[25d[3;40r[40;1H[19S[1;42r[21;1H487,GiratinaOrigin Forme,Ghost,Dragon,680,150,120,100,120,100,90,4,TRUE
+[22d491,Darkrai,Dark,,600,70,90,90,135,90,125,4,TRUE
+[23d492,ShayminLand Forme,Grass,,600,100,100,100,100,100,100,4,TRUE
+[24d492,ShayminSky Forme,Grass,Flying,600,100,103,75,120,75,127,4,TRUE
+[25d493,Arceus,Normal,,720,120,120,120,120,120,120,4,TRUE
+[26d494,Victini,Psychic,Fire,600,100,100,100,100,100,100,5,TRUE
+[27d638,Cobalion,Steel,Fighting,580,91,90,129,90,72,108,5,TRUE
+[28d639,Terrakion,Rock,Fighting,580,91,129,90,72,90,108,5,TRUE
+[29d640,Virizion,Grass,Fighting,580,91,90,72,90,129,108,5,TRUE
+[30d641,TornadusIncarnate Forme,Flying,,580,79,115,70,125,80,111,5,TRUE
+[31d641,TornadusTherian Forme,Flying,,580,79,100,80,110,90,121,5,TRUE
+[32d642,ThundurusIncarnate Forme,Electric,Flying,580,79,115,70,125,80,111,5,TRUE
+[33d642,ThundurusTherian Forme,Electric,Flying,580,79,105,70,145,80,101,5,TRUE
+[34d643,Reshiram,Dragon,Fire,680,100,120,100,150,120,90,5,TRUE
+[35d644,Zekrom,Dragon,Electric,680,100,150,120,120,100,90,5,TRUE
+[36d645,LandorusIncarnate Forme,Ground,Flying,600,89,125,90,115,80,101,5,TRUE
+[37d645,LandorusTherian Forme,Ground,Flying,600,89,145,90,105,80,91,5,TRUE
+[38d646,Kyurem,Dragon,Ice,660,125,130,90,130,90,95,5,TRUE
+[39d646,KyuremBlack Kyurem,Dragon,Ice,700,125,170,100,120,90,95,5,TRUE
+[29d[38d[39d7[3;40r8[40d[19S[1;42r[21;1H646,KyuremWhite Kyurem,Dragon,Ice,700,125,120,90,170,100,95,5,TRUE
+[22d716,Xerneas,Fairy,,680,126,131,95,131,98,99,6,TRUE
+[23d717,Yveltal,Dark,Flying,680,126,131,95,131,98,99,6,TRUE
+[24d718,Zygarde50% Forme,Dragon,Ground,600,108,100,121,81,95,95,6,TRUE
+[25d719,Diancie,Rock,Fairy,600,50,100,150,100,150,50,6,TRUE
+[26d719,DiancieMega Diancie,Rock,Fairy,700,50,160,110,160,110,110,6,TRUE
+[27d720,HoopaHoopa Confined,Psychic,Ghost,600,80,110,60,150,130,70,6,TRUE
+[28d720,HoopaHoopa Unbound,Psychic,Dark,680,80,160,60,170,130,80,6,TRUE
+[29d721,Volcanion,Fire,Water,600,80,110,120,130,90,70,6,TRUE
+[21d[22d[24d[25d[26d[27d[28d[29d[30d[41d[J[42;82H[42;1H[?1049l
+[?1l>]0;tlipke@sol28:~/Lab5Terminal[tlipke@sol28 Lab5Terminal]$ nano log
+[?1049h[1;42r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1                 File: log                                        [40;36H[ New File ]
+[41d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos
+[42d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell
+[3d[41d[J[42;82H[42;1H[?1049l
+[?1l>]0;tlipke@sol28:~/Lab5Terminal[tlipke@sol28 Lab5Terminal]$
