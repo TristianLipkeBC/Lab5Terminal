@@ -1,0 +1,183 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2020.09.27 21:38:22 =~=~=~=~=~=~=~=~=~=~=~=
+login as: tlipke
+Pre-authentication banner message from server:
+| Access to Brooklyn College computers is restricted to authorized users
+|         and approved educational and research purposes, only.
+End of banner message from server
+tlipke@146.245.252.28's password: 
+Last login: Sun Sep 27 21:30:54 2020 from ool-4575541d.dyn.optonline.net
+
+]0;tlipke@sol28:~[?1034h[tlipke@sol28 ~]$ cd Lab5[C[C[C[C[C[C[C[C
+]0;tlipke@sol28:~/Lab5Terminal[tlipke@sol28 Lab5Terminal]$ git pull
+You have not concluded your merge (MERGE_HEAD exists).
+Please, commit your changes before you can merge.
+]0;tlipke@sol28:~/Lab5Terminal[tlipke@sol28 Lab5Terminal]$ git commit -a -m
+error: switch `m' requires a value
+usage: git commit [options] [--] <pathspec>...
+
+    -q, --quiet           suppress summary after successful commit
+    -v, --verbose         show diff in commit message template
+
+Commit message options
+    -F, --file <file>     read message from file
+    --author <author>     override author for commit
+    --date <date>         override date for commit
+    -m, --message <message>
+                          commit message
+    -c, --reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --reuse-message <commit>
+                          reuse message from specified commit
+    --fixup <commit>      use autosquash formatted message to fixup specified commit
+    --squash <commit>     use autosquash formatted message to squash specified commit
+    --reset-author        the commit is authored by me now (used with -C/-c/--amend)
+    -s, --signoff         add Signed-off-by:
+    -t, --template <file>
+                          use specified template file
+    -e, --edit            force edit of commit
+    --cleanup <default>   how to strip spaces and #comments from message
+    --status              include status in commit message template
+    -S, --gpg-sign[=<key id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --all             commit all changed files
+    -i, --include         add specified files to index for commit
+    --interactive         interactively add files
+    -p, --patch           interactively add changes
+    -o, --only            commit only specified files
+    -n, --no-verify       bypass pre-commit hook
+    --dry-run             show what would be committed
+    --short               show status concisely
+    --branch              show branch information
+    --porcelain           machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    --amend               amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+
+]0;tlipke@sol28:~/Lab5Terminal[tlipke@sol28 Lab5Terminal]$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': TristianLipkeBC
+Password for 'https://TristianLipkeBC@github.com': 
+To https://github.com/TristianLipkeBC/Lab5Terminal.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/TristianLipkeBC/Lab5Terminal.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+]0;tlipke@sol28:~/Lab5Terminal[tlipke@sol28 Lab5Terminal]$ git pull
+You have not concluded your merge (MERGE_HEAD exists).
+Please, commit your changes before you can merge.
+]0;tlipke@sol28:~/Lab5Terminal[tlipke@sol28 Lab5Terminal]$ git commit -a -[Km 'u[[Kidk'
+[master 57ff5da] idk
+]0;tlipke@sol28:~/Lab5Terminal[tlipke@sol28 Lab5Terminal]$ g[Kit push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': TristianLipkeBC
+Password for 'https://TristianLipkeBC@github.com': 
+Counting objects: 5, done.
+Delta compression using up to 8 threads.
+Compressing objects:  25% (1/4)   
+Compressing objects:  50% (2/4)   
+Compressing objects:  75% (3/4)   
+Compressing objects: 100% (4/4)   
+Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)   
+Writing objects:  50% (2/4)   
+Writing objects:  75% (3/4)   
+Writing objects: 100% (4/4)   
+Writing objects: 100% (4/4), 7.59 KiB | 0 bytes/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:  50% (1/2)[K
+remote: Resolving deltas: 100% (2/2)[K
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.[K
+To https://github.com/TristianLipkeBC/Lab5Terminal.git
+   c9717be..57ff5da  master -> master
+]0;tlipke@sol28:~/Lab5Terminal[tlipke@sol28 Lab5Terminal]$ 
+[K[tlipke@sol28 Lab5Terminal]$ convert -negate image.pn[[[[[[[[[[[[[[[[[[[[[[[[[Kls
+[0m[01;35mdoggy.png[0m   [01;35mimage.png[0m      Pokemon.csv  Task1.log  [01;32mtask2.sh[0m
+[01;35mimage1.jpg[0m  Legendary.csv  README.md    Task2.log
+]0;tlipke@sol28:~/Lab5Terminal[tlipke@sol28 Lab5Terminal]$ convert -negate image.png p[[Kimage.png
+]0;tlipke@sol28:~/Lab5Terminal[tlipke@sol28 Lab5Terminal]$ git status
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   image.png
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	...
+#	doggy.png
+#	image1.jpg
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;tlipke@sol28:~/Lab5Terminal[tlipke@sol28 Lab5Terminal]$ git add image.png
+]0;tlipke@sol28:~/Lab5Terminal[tlipke@sol28 Lab5Terminal]$ git commit -a -m 'updated pic?'
+[master 3ab1f14] updated pic?
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rewrite image.png (98%)
+]0;tlipke@sol28:~/Lab5Terminal[tlipke@sol28 Lab5Terminal]$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': TristianLipkeBC
+Password for 'https://TristianLipkeBC@github.com': 
+Counting objects: 5, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   
+Compressing objects:  66% (2/3)   
+Compressing objects: 100% (3/3)   
+Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   
+Writing objects:  66% (2/3)   
+Writing objects: 100% (3/3)   
+Writing objects: 100% (3/3), 8.85 KiB | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[K
+remote: Resolving deltas: 100% (1/1)[K
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/TristianLipkeBC/Lab5Terminal.git
+   57ff5da..3ab1f14  master -> master
+]0;tlipke@sol28:~/Lab5Terminal[tlipke@sol28 Lab5Terminal]$ 
